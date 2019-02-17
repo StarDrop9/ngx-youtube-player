@@ -59,6 +59,7 @@ Visit http://localhost:4200 and enjoy!
 - ~~Update UI to be fully responsive for mobile/tablet~~
 - ~~Browser notification interface when new song is going to start~~
 - Save multiple playlists and switch between them
+- Add drag and drop to playlist 
 - Write tests
 - ...
 
