@@ -7,7 +7,7 @@
 
 > YouTube player app built with Angular 7 (latest 7.1.4).
 
-[Demo](https://samirhodzic.github.io/ngx-youtube-player) (Updated: 06/01/2019)
+[Demo](https://ang-81b43.firebaseapp.com/) (Updated: 06/01/2019)
 
 ## Quickstart
 
