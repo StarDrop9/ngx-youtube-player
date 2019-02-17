@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { YoutubePlayerService } from '../../shared/services/youtube-player.service';
 import { PlaylistStoreService } from '../../shared/services/playlist-store.service';
+import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'videos-playlist',
@@ -37,6 +38,12 @@ export class VideosPlaylistComponent {
   currentPlaying(id: string): boolean {
     return this.youtubePlayer.getCurrentVideo() === id;
   }
+ 
+
+  drop(event: CdkDragDrop<any[]>){
+    moveItemInArray (this.videoPlaylist, event.previousIndex, event.currentIndex)
+  };
+
 
   removeFromPlaylist(video: Object): void {
     this.videoPlaylist.splice(this.videoPlaylist.indexOf(video), 1);
