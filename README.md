@@ -1,6 +1,6 @@
 ![ngx-youtube-player-logo](https://raw.githubusercontent.com/SamirHodzic/ngx-youtube-player/master/src/assets/logo_git.png)
 
-# ngx-YouTube-Player
+# ng7-YouTube-Player
 [![build-url][build-url-svg]][build-url]
 [![Dependencies][dependencies]][dependencies-url]
 [![Dev Dependencies][dev-dependencies]][dev-dependencies-url]
